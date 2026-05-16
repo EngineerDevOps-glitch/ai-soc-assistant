@@ -1,0 +1,50 @@
+2026-05-16T06:28:32.908477+00:00 Linux-admin-Lab pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by linux(uid=1000)
+2026-05-16T06:28:32.910856+00:00 Linux-admin-Lab pkexec[15941]: linux: Executing command [USER=root] [TTY=unknown] [CWD=/home/linux] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-05-16T06:42:27.679529+00:00 Linux-admin-Lab systemd-logind[1413]: Power key pressed short.
+2026-05-16T06:42:27.705446+00:00 Linux-admin-Lab systemd-logind[1413]: The system will power off now!
+2026-05-16T06:42:27.740377+00:00 Linux-admin-Lab systemd-logind[1413]: System is powering down.
+2026-05-16T06:42:27.773598+00:00 Linux-admin-Lab gdm-password]: pam_unix(gdm-password:session): session closed for user linux
+2026-05-16T06:42:28.045592+00:00 Linux-admin-Lab systemd-logind[1413]: Session 2 logged out. Waiting for processes to exit.
+2026-05-16T06:58:05.837154+00:00 Linux-admin-Lab systemd-logind[1350]: New seat seat0.
+2026-05-16T06:58:05.837156+00:00 Linux-admin-Lab systemd-logind[1350]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-16T06:58:05.837158+00:00 Linux-admin-Lab systemd-logind[1350]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-05-16T06:58:05.837161+00:00 Linux-admin-Lab systemd-logind[1350]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-05-16T06:58:08.000798+00:00 Linux-admin-Lab sshd[1719]: Server listening on 0.0.0.0 port 22.
+2026-05-16T06:58:08.001064+00:00 Linux-admin-Lab sshd[1719]: Server listening on :: port 22.
+2026-05-16T06:58:09.193729+00:00 Linux-admin-Lab gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-05-16T06:58:09.241036+00:00 Linux-admin-Lab systemd-logind[1350]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-05-16T06:58:09.322955+00:00 Linux-admin-Lab (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-05-16T06:58:09.323977+00:00 Linux-admin-Lab systemd-logind[1350]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-05-16T06:58:32.632034+00:00 Linux-admin-Lab gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-16T06:58:32.632648+00:00 Linux-admin-Lab gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-16T06:58:32.666469+00:00 Linux-admin-Lab gdm-password]: pam_unix(gdm-password:session): session opened for user linux(uid=1000) by linux(uid=0)
+2026-05-16T06:58:32.689442+00:00 Linux-admin-Lab systemd-logind[1350]: New session '2' of user 'linux' with class 'user' and type 'wayland'.
+2026-05-16T06:58:32.747878+00:00 Linux-admin-Lab (systemd): pam_unix(systemd-user:session): session opened for user linux(uid=1000) by linux(uid=0)
+2026-05-16T06:58:32.749307+00:00 Linux-admin-Lab systemd-logind[1350]: New session '3' of user 'linux' with class 'manager' and type 'unspecified'.
+2026-05-16T06:58:33.098004+00:00 Linux-admin-Lab gdm-password]: gkr-pam: unlocked login keyring
+2026-05-16T06:58:41.043999+00:00 Linux-admin-Lab gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-05-16T06:58:41.055498+00:00 Linux-admin-Lab systemd-logind[1350]: Session c1 logged out. Waiting for processes to exit.
+2026-05-16T06:58:41.062305+00:00 Linux-admin-Lab systemd-logind[1350]: Removed session c1.
+2026-05-16T06:58:44.510092+00:00 Linux-admin-Lab pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by linux(uid=1000)
+2026-05-16T06:58:44.513076+00:00 Linux-admin-Lab pkexec[4175]: linux: Executing command [USER=root] [TTY=unknown] [CWD=/home/linux] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-05-16T06:58:51.198231+00:00 Linux-admin-Lab systemd-logind[1350]: Removed session 1.
+2026-05-16T07:03:53.242349+00:00 Linux-admin-Lab dbus-daemon[1290]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-05-16T07:10:04.594664+00:00 Linux-admin-Lab su[5570]: (to linux) linux on pts/0
+2026-05-16T07:10:04.608580+00:00 Linux-admin-Lab su[5570]: pam_unix(su-l:session): session opened for user linux(uid=1000) by linux(uid=1000)
+2026-05-16T07:10:04.608817+00:00 Linux-admin-Lab systemd-logind[1350]: Existing logind session ID 3 used by new audit session, ignoring.
+2026-05-16T07:10:04.610829+00:00 Linux-admin-Lab systemd-logind[1350]: New session 'c2' of user 'linux' with class 'user' and type 'tty'.
+2026-05-16T07:10:21.401510+00:00 Linux-admin-Lab su[5570]: pam_unix(su-l:session): session closed for user linux
+2026-05-16T07:10:21.408769+00:00 Linux-admin-Lab systemd-logind[1350]: Session c2 logged out. Waiting for processes to exit.
+2026-05-16T07:10:21.415004+00:00 Linux-admin-Lab systemd-logind[1350]: Removed session c2.
+2026-05-16T07:10:31.154832+00:00 Linux-admin-Lab unix_chkpwd[5677]: password check failed for user (linux)
+2026-05-16T07:10:31.155307+00:00 Linux-admin-Lab su: pam_unix(su-l:auth): authentication failure; logname=linux uid=1000 euid=0 tty=/dev/pts/0 ruser=linux rhost=  user=linux
+2026-05-16T07:10:33.684898+00:00 Linux-admin-Lab su[5671]: FAILED SU (to linux) linux on pts/0
+2026-05-16T07:10:55.528933+00:00 Linux-admin-Lab su[5679]: (to linux) linux on pts/0
+2026-05-16T07:10:55.532692+00:00 Linux-admin-Lab su[5679]: pam_unix(su-l:session): session opened for user linux(uid=1000) by linux(uid=1000)
+2026-05-16T07:10:55.534202+00:00 Linux-admin-Lab systemd-logind[1350]: Existing logind session ID 3 used by new audit session, ignoring.
+2026-05-16T07:10:55.536982+00:00 Linux-admin-Lab systemd-logind[1350]: New session 'c3' of user 'linux' with class 'user' and type 'tty'.
+2026-05-16T07:12:12.153454+00:00 Linux-admin-Lab sudo: pam_unix(sudo:session): session opened for user root(uid=0) by linux(uid=1000)
+2026-05-16T07:12:12.155169+00:00 Linux-admin-Lab sudo: linux : TTY=/dev/pts/0 ; PWD=/home/linux ; USER=root ; COMMAND=/usr/bin/tail -30 /var/log/auth.log
+2026-05-16T07:12:12.170212+00:00 Linux-admin-Lab sudo: pam_unix(sudo:session): session closed for user root
+2026-05-16T07:13:59.831786+00:00 Linux-admin-Lab sudo: pam_unix(sudo:session): session opened for user root(uid=0) by linux(uid=1000)
+2026-05-16T07:13:59.832022+00:00 Linux-admin-Lab sudo: linux : TTY=/dev/pts/0 ; PWD=/home/linux/ai-soc-assistant ; USER=root ; COMMAND=/usr/bin/tail -50 /var/log/auth.log

@@ -1,0 +1,16 @@
+with open("alerts/sample-alert.txt", "r") as file:
+    alert_data = file.read()
+
+print("===== ALERT DATA =====")
+print(alert_data)
+
+print("\n===== AI SOC ANALYSIS =====")
+
+if "Failed Login" in alert_data:
+    print("Possible brute force attack detected.")
+    print("Risk Level: Medium to High")
+    print("Recommended Actions:")
+    print("- Investigate source IP")
+    print("- Check if account was compromised")
+    print("- Review authentication logs")
+    print("- Consider blocking the IP")

@@ -1,0 +1,11 @@
+Alert Name: Multiple Failed Login Attempts
+
+Source IP: 185.220.101.45
+Destination Host: WIN-SERVER01
+Username: admin
+Event Type: Failed Login
+Failure Count: 12
+Time Window: 5 minutes
+
+Description:
+The user account "admin" had 12 failed login attempts from an external IP address within 5 minutes.
