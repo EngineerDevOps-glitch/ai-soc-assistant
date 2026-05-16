@@ -1,0 +1,16 @@
+===== AI SOC ASSISTANT REPORT =====
+Generated: 2026-05-16 07:51:56.450445
+
+Risk Score: 10
+Risk Level: Medium
+
+Findings:
+- Authentication failures detected: 1
+- Sudo/admin activity detected: 8
+
+Recommended Investigation Steps:
+- Review failed login usernames
+- Check invalid username attempts
+- Review sudo/admin activity
+- Investigate repeated failures
+- Consider firewall blocking if needed
